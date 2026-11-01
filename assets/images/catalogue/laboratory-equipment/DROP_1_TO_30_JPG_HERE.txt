@@ -1,0 +1,2 @@
+Place client's 30 photographs for 'laboratory-equipment' in this folder named:
+1.jpg, 2.jpg, 3.jpg ... up to 30.jpg

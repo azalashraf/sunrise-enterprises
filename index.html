@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunrise Enterprises | Educational Infrastructure, Lab Equipment & Institutional Furniture</title>
+  <meta
+    name="description"
+    content="Sunrise Enterprises is your trusted partner for school & college laboratory construction, laboratory equipment, chemicals, writing boards, notice boards, and complete institutional furniture."
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 1. TOP CONTACT BAR -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div>Trusted Institutional Infrastructure, Lab &amp; Furniture Partner</div>
+      <div class="topbar-items">
+        <a data-link="phone" href="#contact">📞 <span data-contact="phone-display">[CLIENT PHONE NUMBER]</span></a>
+        <a data-link="whatsapp" href="#contact">💬 WhatsApp: <span data-contact="whatsapp-display">[CLIENT WHATSAPP NUMBER]</span></a>
+        <a data-link="email" href="#contact">✉️ <span data-contact="email-display">[CLIENT EMAIL ADDRESS]</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STICKY NAVIGATION HEADER -->
+  <header class="navbar">
+    <div class="container navbar-content">
+      <a href="#home" class="navbar-logo" aria-label="Sunrise Enterprises Home">
+        <img src="assets/images/logo/sunrise-logo.svg" alt="Sunrise Enterprises Logo" />
+      </a>
+
+      <nav class="nav-links" id="mainNavLinks" aria-label="Primary Navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#catalogue">Product Catalogue (12)</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a data-link="whatsapp" href="#contact" class="btn btn-whatsapp btn-sm">WhatsApp Us</a>
+        <button class="menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge">☀ Sunrise Enterprises • Institutional Showcase</div>
+        <h1>Complete Solutions for Schools, Colleges &amp; Institutions</h1>
+        <p>
+          Your trusted partner for educational infrastructure, laboratory equipment,
+          institutional furniture and complete institutional supply solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#catalogue" class="btn btn-orange">Explore Products</a>
+          <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+        </div>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <strong>12 Categories</strong>
+            <span>Complete Institutional Range</span>
+          </div>
+          <div class="highlight-item">
+            <strong>Photos / Cat.</strong>
+            <span>Live Revolving Catalogue</span>
+          </div>
+          <div class="highlight-item">
+            <strong>Turnkey Setup</strong>
+            <span>Labs, Libraries &amp; Campuses</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-showcase-box">
+        <p style="font-weight:700; margin-bottom:12px; color:#FF941F; font-size:0.9rem;">
+          QUICK JUMP TO 12 PRODUCT CATEGORIES:
+        </p>
+        <div class="hero-category-pills" id="heroCategoryPills">
+          <!-- Populated dynamically by js/main.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PRODUCT CATALOGUE (12 CATEGORIES  REVOLVING IMAGES EACH) -->
+  <section class="section" id="catalogue">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Revolving Product Catalogue</span>
+        <h2 class="section-title">Explore Our 12 Institutional Product Categories</h2>
+        <p class="section-desc">
+          Every category below automatically revolves through <strong> product photographs</strong>.
+          Hover to pause, use the arrows to browse, or click <em>"View All Photos"</em> to inspect the full gallery.
+        </p>
+      </div>
+
+      <!-- Filter & Search Controls -->
+      <div class="catalogue-controls">
+        <div class="filter-tabs" role="tablist">
+          <button class="filter-btn active" data-filter="all" type="button">All 12 Categories</button>
+          <button class="filter-btn" data-filter="infrastructure" type="button">Lab/Library Construction</button>
+          <button class="filter-btn" data-filter="laboratory" type="button">Lab Equipment &amp; Chemicals</button>
+          <button class="filter-btn" data-filter="furniture" type="button">School &amp; Classroom Furniture</button>
+          <button class="filter-btn" data-filter="office" type="button">Office, Tables &amp; Chairs</button>
+          <button class="filter-btn" data-filter="boards" type="button">Writing &amp; Notice Boards</button>
+          <button class="filter-btn" data-filter="supplies" type="button">Institutional Supplies</button>
+        </div>
+
+        <div class="catalogue-search">
+          <input
+            type="search"
+            id="catalogueSearchInput"
+            placeholder="Search categories or equipment..."
+            aria-label="Search product categories"
+          />
+        </div>
+      </div>
+
+      <!-- 12 Revolving Category Cards Container -->
+      <div class="catalogue-grid" id="revolvingCatalogueGrid">
+        <!-- Populated dynamically by js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ABOUT US SECTION -->
+  <section class="section bg-white" id="about">
+    <div class="container about-grid">
+      <div>
+        <span class="eyebrow">About Sunrise Enterprises</span>
+        <h2 class="section-title">Dedicated to Educational &amp; Institutional Excellence</h2>
+        <p style="color:#486581; margin-bottom:16px;">
+          <strong>Sunrise Enterprises</strong> provides products, equipment and infrastructure solutions for schools,
+          colleges, universities, laboratories and other educational institutions.
+        </p>
+        <p style="color:#486581; margin-bottom:24px;">
+          From complete turnkey laboratory and library construction work to precision scientific instruments,
+          laboratory chemicals, classroom seating, writing boards, and executive boardroom furniture, we deliver
+          dependable institutional solutions under one roof.
+        </p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a data-link="whatsapp" href="#contact" class="btn btn-orange">Speak With Us on WhatsApp</a>
+          <a data-link="phone" href="#contact" class="btn btn-navy">Call Now</a>
+        </div>
+      </div>
+
+      <div class="value-cards">
+        <div class="value-card">
+          <h4>Our Mission</h4>
+          <p style="font-size:0.88rem; color:#486581;">
+            To equip educational institutions with safe, durable, and modern laboratory, library, and classroom infrastructure.
+          </p>
+        </div>
+        <div class="value-card">
+          <h4>Our Vision</h4>
+          <p style="font-size:0.88rem; color:#486581;">
+            To be the most trusted single-window partner for schools, colleges, and universities seeking quality institutional supplies.
+          </p>
+        </div>
+        <div class="value-card">
+          <h4>Institutional Quality</h4>
+          <p style="font-size:0.88rem; color:#486581;">
+            Heavy-duty construction built to handle rigorous daily student and faculty usage across campuses.
+          </p>
+        </div>
+        <div class="value-card">
+          <h4>Sectors We Serve</h4>
+          <p style="font-size:0.88rem; color:#486581;">
+            K-12 Schools, Degree &amp; Engineering Colleges, Universities, Research Labs, Libraries, and Administrative Offices.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. OUR SERVICES SECTION -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Turnkey Capabilities</span>
+        <h2 class="section-title">Our Institutional Services</h2>
+        <p class="section-desc">
+          End-to-end execution from initial layout design and fabrication to on-site installation.
+        </p>
+      </div>
+
+      <div class="info-grid-3" id="servicesGrid">
+        <!-- Populated by js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. COMPLETED PROJECTS PORTFOLIO -->
+  <section class="section bg-white" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Project Portfolio</span>
+        <h2 class="section-title">Institutional Work Showcase</h2>
+        <p class="section-desc">
+          Representative institutional setups across laboratories, libraries, classrooms, and administrative blocks.
+        </p>
+      </div>
+
+      <div class="info-grid-3" id="projectsGrid">
+        <!-- Populated by js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. DIRECT CONTACT SECTION (NO FORMS - STRICTLY DIRECT CALL / WHATSAPP / EMAIL / VISIT) -->
+  <section class="section bg-navy" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Direct Contact</span>
+        <h2 class="section-title">Connect With Sunrise Enterprises</h2>
+        <p class="section-desc">
+          Reach out directly via phone, WhatsApp, or email for institutional product inquiries and turnkey setup discussions.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div style="font-size:2rem;">📞</div>
+          <h4>Call Us Directly</h4>
+          <div class="contact-value" data-contact="phone-display">[CLIENT PHONE NUMBER]</div>
+          <a data-link="phone" href="#contact" class="btn btn-navy btn-sm">Call Now</a>
+        </div>
+
+        <div class="contact-card">
+          <div style="font-size:2rem;">💬</div>
+          <h4>WhatsApp Chat</h4>
+          <div class="contact-value" data-contact="whatsapp-display">[CLIENT WHATSAPP NUMBER]</div>
+          <a data-link="whatsapp" href="#contact" class="btn btn-whatsapp btn-sm">Chat on WhatsApp</a>
+        </div>
+
+        <div class="contact-card">
+          <div style="font-size:2rem;">✉️</div>
+          <h4>Official Email</h4>
+          <div class="contact-value" data-contact="email-display">[CLIENT EMAIL ADDRESS]</div>
+          <a data-link="email" href="#contact" class="btn btn-orange btn-sm">Send Email</a>
+        </div>
+
+        <div class="contact-card">
+          <div style="font-size:2rem;">📍</div>
+          <h4>Business Address</h4>
+          <div class="contact-value" data-contact="address-display">[CLIENT BUSINESS ADDRESS]</div>
+          <a data-link="maps" href="#contact" target="_blank" rel="noopener" class="btn btn-navy btn-sm">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. CORPORATE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="assets/images/logo/sunrise-logo-white.svg" alt="Sunrise Enterprises White Logo" style="height:48px; margin-bottom:16px;" />
+          <p style="font-size:0.9rem; margin-bottom:16px;">
+            Sunrise Enterprises provides products, equipment and infrastructure solutions for schools, colleges,
+            universities, laboratories and educational institutions.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#catalogue">Product Catalogue</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Core Categories</h4>
+          <ul class="footer-links">
+            <li><a href="#card-lab-library-construction">Lab &amp; Library Construction</a></li>
+            <li><a href="#card-laboratory-equipment">Laboratory Equipment</a></li>
+            <li><a href="#card-laboratory-chemicals">Laboratory Chemicals</a></li>
+            <li><a href="#card-school-college-furniture">School &amp; College Furniture</a></li>
+            <li><a href="#card-writing-boards">Writing &amp; Notice Boards</a></li>
+            <li><a href="#card-conference-tables">Office &amp; Conference Furniture</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Information</h4>
+          <ul class="footer-links">
+            <li>📞 <span data-contact="phone-display">[CLIENT PHONE NUMBER]</span></li>
+            <li>💬 <span data-contact="whatsapp-display">[CLIENT WHATSAPP NUMBER]</span></li>
+            <li>✉️ <span data-contact="email-display">[CLIENT EMAIL ADDRESS]</span></li>
+            <li>📍 <span data-contact="address-display">[CLIENT BUSINESS ADDRESS]</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Sunrise Enterprises. All Rights Reserved.</span>
+        <span>Educational Infrastructure, Laboratory &amp; Institutional Furniture Showcase</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 10. -IMAGE GALLERY MODAL -->
+  <div class="catalogue-modal" id="thirtyPhotoModal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-top">
+        <h3 id="modalCategoryTitle" style="color:#fff; font-size:1.15rem;">Category Photographs</h3>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <a id="modalWhatsappBtn" href="#contact" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+            Inquire About This Category
+          </a>
+          <button class="modal-close-btn" id="closeModalBtn" type="button" aria-label="Close modal">&#10005;</button>
+        </div>
+      </div>
+      <div class="modal-content-area">
+        <div class="thirty-photos-grid" id="modalThirtyGrid">
+          <!-- All 30 photos of the selected category render here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS MATCHING YOUR FOLDER STRUCTURE -->
+  <script src="config/site-config.js"></script>
+  <script src="config/products-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

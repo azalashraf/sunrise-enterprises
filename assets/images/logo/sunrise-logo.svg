@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64" fill="none">
+  <rect x="2" y="6" width="52" height="52" rx="12" fill="#102A43"/>
+  <path d="M28 14V18M15.3 19.3L18.1 22.1M40.7 19.3L37.9 22.1M10 32H14M42 32H46" stroke="#FF941F" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M17 34C17 27.9249 21.9249 23 28 23C34.0751 23 39 27.9249 39 34H17Z" fill="#FF941F"/>
+  <path d="M12 38C18 38 24 40 28 43C32 40 38 38 44 38V46C38 46 32 48 28 51C24 48 18 46 12 46V38Z" fill="#FFFFFF"/>
+  <text x="66" y="33" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="23" font-weight="800" fill="#102A43" letter-spacing="0.5">SUNRISE</text>
+  <text x="177" y="33" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#FF941F" letter-spacing="0.5">ENTERPRISES</text>
+  <text x="67" y="50" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#486581" letter-spacing="1.6">INSTITUTIONAL &amp; LAB SOLUTIONS</text>
+</svg>
